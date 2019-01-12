@@ -11,6 +11,7 @@ right_counter=0
     
 th_value=5   
 
+
 def thresholding( value ):
     global left_counter
     global right_counter
