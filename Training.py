@@ -21,7 +21,7 @@ def extractset():
                 break
             elif key ==ord('r'):
                 copyfile(nw[b],'/Users/lordvile/Documents/CODE/TESTING RN/Eye tracking/dataset/right/{}'.format(nw[b].split('/')[-1]))
-            elif key ==ord('f'):
+            elifls key ==ord('f'):
                 copyfile(nw[b],'/Users/lordvile/Documents/CODE/TESTING RN/Eye tracking/dataset/forward/{}'.format(nw[b].split('/')[-1]))
             else:
                 pass
